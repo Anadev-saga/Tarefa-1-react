@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tarefa 1 React </title>
+    <link rel="stylesheet" href="style.css" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<div class="topo">
+  <h2>Teste simples com React</h2>
+  <p>Essa tarefa pretende usar react na página sem uso de JSX, de forma estática, sem usar o npm. </p>
+  <p>O react é carregado dentro de uma tag script.</p>
+</div>
+<span class="span">Frases pra melhorar o seu dia!</span>
+    <p class="frase-1">
+      "Você pode tudo, menos desistir!"
+      <div class="like_button_container" data-commentid="1"></div>
+    </p>
+    <p class="frase-2">
+      "Não atrase seu progresso por medo do fracasso."
+      <!-- We will put our React component inside this div. -->
+      <div class="like_button_container" data-commentid="2"></div>
+    </p>
+    <p class="frase-3">
+      "A meta é ser melhor que ontem, não melhor que ninguém." 
+      <div class="like_button_container" data-commentid="3"></div>
+    </p>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="like_button.js"></script>
+
+  </body>
+</html>
